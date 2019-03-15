@@ -14,5 +14,14 @@ puts 'Creating ingredients...'
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "Rhum")
+Ingredient.create(name: "tonic")
+Ingredient.create(name: "Gin")
+
+Cocktail.create(name: "Mojito")
+Cocktail.create(name: "Margarita")
+Cocktail.create(name: "Spritz")
+Cocktail.create(name: "Caïpirinha")
+Cocktail.create(name: "Gin tonic")
 
 puts 'Finished!'
